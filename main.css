@@ -1,0 +1,124 @@
+body
+    {
+        font-family: monospace;
+    }
+
+ul
+    {
+        font-family: helvetica;
+    }
+h3
+    {
+        color: darkblue;
+    }
+.topnav a
+{   
+    font-family: helvetica;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid white;
+    
+   
+}
+.topnav ul
+{
+    list-style-type: none;
+    padding-inline-start: 0px;
+    position: relative;
+    display: none;
+}
+.topnav ul > li
+{
+    display:inline-block;
+    vertical-align: top;
+}
+
+.topnav ul ul
+{
+    display: none;
+    position: absolute;
+}
+.topnav ul > li:hover > ul
+{
+    display:inherit;
+    background: darkgreen;
+}
+.topnav a:hover
+{
+    background: black;
+}
+.topnav label
+{
+    font-size: 40px;
+}
+.item
+    {
+        list-style: circle;
+    }
+
+.light-theme
+    {
+     background: darkgreen;
+     color:   black;
+    }
+.dark-theme
+    {
+     color: darkgreen;
+     background:   black;
+    }
+.contact
+    {
+        font-family: helvetica;
+        background: darkgreen;
+    }
+.about
+    {
+        background: darkgreen;
+    }
+.topnav .first{
+    top: 25px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+}
+
+.topnav .second{
+    top: 45px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+}
+
+.topnav .third{
+    top: 65px;
+    left: 20px;
+    width: 15px;
+    border: white solid 1px;
+    margin: 2px;
+    margin-bottom: 3px;
+    }
+#kop
+    {
+        font-family: helvetica;
+        font-weight: bold;
+        color: rgb(255,0,0);
+    
+    }
+#hamburger
+{
+    display: none;
+    
+}
+    
+#hamburger:checked + ul
+{   
+    display: block;
+}
